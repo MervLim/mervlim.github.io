@@ -1,7 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Agency+FB);
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 @import url(https://fonts.googleapis.com/css?family=Arima+Madurai);
 @import url(https://fonts.googleapis.com/css?family=Archivo);
+
+@font-face {
+    font-family: Agency;
+    src: url(fonts/AGENCYR.TTF);
+}
+@font-face {
+    font-family: AgencyB;
+    src: url(fonts/AGENCYB.TTF);
+}
+
 
 
 body {
@@ -20,7 +29,7 @@ body {
 
 #headerTitle {
   background-color: rgba(255,255,255, 0.5);
-  font-family: 'Agency FB';
+  font-family: 'Agency';
   width: 40%;
   margin: 15% auto;
   font-size: 50px;
@@ -30,8 +39,7 @@ body {
 }
 
 #typed {
-  font-family: 'Agency FB';
-  font-weight: bold;
+  font-family: 'AgencyB';
   width: 50%;
   font-size: 50px;
   margin: 0 auto;
@@ -97,8 +105,7 @@ body {
   height: 100px;
   text-align: center;
   color: #5d6d7c;
-  font-family: 'Agency FB';
-  font-weight: bold;
+  font-family: 'AgencyB';
   display: table;
 }
 
@@ -108,9 +115,8 @@ body {
 }
 
 .title {
-  font-family: 'Agency FB';
+  font-family: 'AgencyB';
   font-size: 40px;
-  font-weight: bold;
   color: #fdd000;
 }
 
@@ -206,7 +212,7 @@ body {
 }
 
 @media only screen
-and (max-width : 1224px) {
+and (max-width : 1500px) {
   #headerTitle {
     font-size: 35px;
   }
