@@ -27,9 +27,6 @@ body {
   text-align: center;
   border: 1px solid yellow;
   border-radius: 5px;
-
-
-
 }
 
 #typed {
@@ -206,4 +203,34 @@ body {
 .icons {
   margin-top: 40px;
   letter-spacing: 20px;
+}
+
+@media only screen
+and (max-width : 1224px) {
+  #headerTitle {
+    font-size: 35px;
+  }
+
+  #typed {
+    font-size: 35px;
+  }
+
+  #introduction {
+    font-size: 14px;
+  }
+
+  .description {
+    width: 40%;
+    font-size: 14px;
+    }
+
+  .descriptionAlt {
+    width: 40%;
+    font-size: 14px;
+    }
+
+  #contactDetails {
+    font-size: 14px;
+
+}
 }
