@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/css?family=Agency+FB);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Arima+Madurai);
+@import url(https://fonts.googleapis.com/css?family=Archivo);
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background-image: url('./images/headerHero1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  border: 1px solid white;
+  opacity: 0.9;
+}
+
+#headerTitle {
+  background-color: rgba(255,255,255, 0.5);
+  font-family: 'Agency FB';
+  width: 40%;
+  margin: 15% auto;
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid yellow;
+  border-radius: 5px;
+
+
+
+}
+
+#typed {
+  font-family: 'Agency FB';
+  font-weight: bold;
+  width: 50%;
+  font-size: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fdd000;
+}
+
+#about {
+  background-color: #f2efe2;
+  /*background-color: #fecb50;*/
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+#introduction {
+  padding-top: 40px;
+  width: 65%;
+  margin: 0 auto;
+  font-family: 'Roboto Slab';
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+  color: #3f4652;
+}
+
+#portfolio {
+    background-color: #5d6d7c;
+  /*background-color: #f2efe2;*/
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: center;
+  height: auto;
+
+}
+
+#contactMe {
+  font-family: 'Roboto Slab';
+  background-color: #f2efe2;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #3f4652;
+}
+
+#contactDetails {
+  width: 65%;
+  margin: 0 auto;
+  font-family: 'Roboto Slab';
+  font-size: 16px;
+  text-align: left;
+  line-height: 28px;
+  color: #3f4652;
+}
+
+#footer {
+  background-color: #fdd000;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  color: #5d6d7c;
+  font-family: 'Agency FB';
+  font-weight: bold;
+  display: table;
+}
+
+.footer-content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.title {
+  font-family: 'Agency FB';
+  font-size: 40px;
+  font-weight: bold;
+  color: #fdd000;
+}
+
+.projects {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  display: inline-block;
+  width: 70%;
+  height: auto;
+  text-align: center;
+  /*border-bottom: 1px solid rgba(93,109,124, 0.5);*/
+  border-bottom: 1px solid rgba(242,239,226,0.5);
+}
+
+
+.description {
+  display: inline-block;
+  width: 50%;
+  font-family: 'Roboto Slab';
+  vertical-align: top;
+  padding-left: 10px;
+  text-align: left;
+  margin-left: 100px;
+  color: #f2efe2;
+}
+
+.descriptionAlt {
+  display: inline-block;
+  width: 50%;
+  font-family: 'Roboto Slab';
+  vertical-align: top;
+  padding-left: 10px;
+  text-align: left;
+  margin-right: 100px;
+  color: #f2efe2;
+
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #fdd000;
+  border: none;
+  color: #5d6d7c;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  width: 165px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 25px;
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover  {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.icons {
+  margin-top: 40px;
+  letter-spacing: 20px;
+}

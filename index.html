@@ -1,0 +1,99 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <title>Mervyn Lim</title>
+     <meta name="description" content="DESCRIPTION">
+     <link rel="stylesheet" href="./style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src='lib/typed.js'></script>
+ </head>
+
+ <body>
+   <header id="header">
+     <div id='headerTitle'>
+       <p>Hey, I'm <b>Mervyn Lim</b>. <br />I'm a full stack developer. <br />
+        I build <span id="typed"></span>
+     </div>
+  </header>
+
+  <div id='about'>
+    <span class='title'>About Me</span><br /><br /><br />
+    <img src="images/ProfilePhoto.jpeg" class='profile'/>
+    <div id='introduction'>Ever since i was a child, i have always been fascinated about the web and the things it can do. I wrote my first HTML code when i was 12 years old. It was to decorate my user profile when i was playing a web based game called neopets. I would spend hours trying to explore different HTML tags to make it even more beautiful. i didn't realized that it would eventually become my passion after so many years.
+    Now, I'm extremely passionate in building clean and beautiful web applications with good user experience as priority. I worked well in a team environment and is looking for an opportunity to challenge and grow myself professionally.
+    </div>
+  </div>
+  <div id='portfolio'>
+  <span class='title'>Personal Projects</span><br />
+  <div class='projects'>
+    <img src="images/Project1.png" / width="350px" height="250px">
+    <div class='description'><b>Bumper Car</b>
+      <p>A HTML5 game where 2 players battle each other until one of their cars are totally destroyed.</p><br /><br />
+      <p><i>HTML, CSS, JavaScript</i></p>
+      <a href='https://github.com/MervLim/Project1'><button class="button"><span>View On Github</span></button></a>
+    </div>
+  </div>
+
+  <div class='projects'>
+    <div class='descriptionAlt'><b>Money Helper</b>
+    <p>A budget planner web app build for the purpose of tracking user's monthly budget. User can add monthly balance to his account and also transactions to track his expenditure for the month.</p><br />
+    <p><i>PUG, Node.js, Express, MongoDB</i></p>
+    <a href='https://github.com/MervLim/Project2'><button class="button"><span>View On Github</span></button></a>
+    </div>
+    <img src="images/Project2.png" / width="350px" height="250px">
+
+  </div>
+
+  <div class='projects'>
+    <img src="images/Project3.png" / width="350px" height="250px">
+    <div class='description'><b>POS System</b>
+    <p>An online point of sales system build to allow user to manage their inventories efficiently. User could add/edit items into their inventories and track transactions based on the monthly sales.  </p><br />
+    <p><i>React.js, Redux, Node.js, Express, MongoDB</i></p>
+    <button class="button"><span>View On Github</span></button>
+    </div>
+  </div>
+
+  <div class='projects'>
+    <div class='descriptionAlt'><b>BloodHound</b>
+    <p>This application is built for users as a one stop financial hub. It can add specific stocks based on the user’s preference to see financial news, stock prices relevant to the user’s stock interest.</p>
+    <p><i>React.js, Redux, Node.js, Express, MongoDB, Chart.js, Alpha Vantage API, Intrinio API</i></p>
+    <a href='https://github.com/MervLim/BloodHound'><button class="button"><span>View On Github</span></button></a>
+    </div>
+    <img src="images/Project4.png" / width="350px" height="250px">
+
+  </div>
+
+
+
+  </div>
+
+  <div id='contactMe'><span class='title'>Get In Touch</span><br /><br />
+    <div id='contactDetails'>
+      I am always interested to hear from anyone who wishes to get in touch with me. Whether you have an opportunity to work on or if you just want to say hello, feel free to contact me
+      @ mervyn.lhj@gmail.com.
+    </div><br /><br /><br /><br />
+    <p><span class='title'>Connect With Me</span></p>
+    <center><p class='icons'><a href='https://github.com/MervLim'><img src='images/GitHub.png' title='GitHub' width='35px' height="35px"></a>
+    <a href='https://www.linkedin.com/in/mervyn-lim-7aa737138/'><img src='images/Linkedin.png' width='35px' height="35px" title='LinkedIn'></a>
+    <a href='https://www.facebook.com/Mervyn.Lim.Hao.Jie'><img src='images/Facebook.png' width='35px' height="35px" title='Facebook'></a>
+    </p>
+
+    </center>
+  </div>
+
+<footer id='footer'><div class='footer-content'>&#169; 2017 MERVYNLIM.COM ALL RIGHTS RESERVED</div></footer>
+   <script>
+    var typed = new Typed('#typed', {
+      strings: ['Web applications.','User interfaces.','Landing pages.'],
+      typeSpeed: 80,
+      backSpeed: 30,
+      showCursor: true,
+      loop: Infinity
+    });
+  </script>
+ </body>
+
+
+ </html>
